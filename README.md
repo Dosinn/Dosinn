@@ -22,7 +22,7 @@ Real-time news aggregator for Ukrainian media. Built a custom fine-tuned Sentenc
 
 ---
 
-**[autobook](https://github.com/Dosinn/autobook)** · *in progress · STU FIIT team project*
+**[autobook](https://github.com/TokyoCity0837/AutoBook)** · in progress · STU FIIT team project
 
 Platform for writers with a social layer and AI tools. Three separate services — Java Spring Boot handles core logic, React on the frontend, and a Python/FastAPI microservice for NLP: style analysis, text suggestions, generation. I built the Python/FastAPI AI microservice, and the React/TypeScript frontend.
 
