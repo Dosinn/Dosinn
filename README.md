@@ -2,18 +2,25 @@
 
 Python backend developer · STU FIIT Bratislava · focused on backend systems and ML/NLP
 
-I work on backend systems and NLP — scraping, clustering, async pipelines. Recently started deploying on AWS EC2 and picking up Docker.
+I work on backend systems and NLP - semantic search, vector embeddings, clustering, async pipelines. Deploying on Linux / AWS EC2 with Docker and Nginx.
 
 ---
 
 **Stack**
 
-`Python` `Django · DRF` `FastAPI` `Celery · Redis` `SentenceTransformers` `spaCy`  
-`MongoDB · MySQL · PostgreSQL` `Docker` `AWS EC2` `Linux` `Git` `REST API`
+`Python` `FastAPI` `Django · DRF` `Celery · Redis` `SentenceTransformers` `SlovakBERT` `spaCy`  
+`PostgreSQL` `MongoDB` `MySQL` `Docker · Docker Compose` `Linux / Bash` `Nginx` `AWS EC2` `Git` `REST API`
 
 ---
 
 **Projects**
+
+**[mip](https://github.com/Dosinn/MIP-app)** · in production · FIIT STU platform
+
+Course project management & idea discovery platform for 1st-year students at FIIT STU. Built a Python/FastAPI AI microservice that loads SlovakBERT to generate semantic embeddings, evaluate project drafts in real time, and detect duplicate topics. Implemented MDS + SMACOF dimensionality reduction to project multidimensional vectors into an interactive 2D idea map (D3.js). Connected with a Spring Boot core and React PWA, containerized via Docker Compose, and deployed on a university Linux server behind Nginx.
+`Python` `FastAPI` `SlovakBERT` `SentenceTransformers` `Docker` `Linux` `Nginx` `PostgreSQL` `Spring Boot` `React`
+
+---
 
 **[news-link](https://github.com/Dosinn/news-link)** · 🏆 JASU 2025 · 1st place (Junior Academy of Sciences of Ukraine)
 
@@ -25,7 +32,6 @@ Real-time news aggregator for Ukrainian media. Built a custom fine-tuned Sentenc
 **[autobook](https://github.com/TokyoCity0837/AutoBook)** · in progress · STU FIIT team project
 
 Platform for writers with a social layer and AI tools. Three separate services — Java Spring Boot handles core logic, React on the frontend, and a Python/FastAPI microservice for NLP: style analysis, text suggestions, generation. I built the Python/FastAPI AI microservice, and the React/TypeScript frontend.
-
 `FastAPI` `spaCy` `MongoDB` `MySQL`
 
 ---
